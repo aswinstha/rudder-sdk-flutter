@@ -1,0 +1,4 @@
+install:
+  - echo "Rudder sdk android"
+  - cd rudder_plugin_android/android
+  - ./gradlew clean build publishToMavenLocal
